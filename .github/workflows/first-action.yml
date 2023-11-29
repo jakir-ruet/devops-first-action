@@ -1,0 +1,10 @@
+name: First Workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Grerting
+        run: echo "Welcome to LapisSoft"
+      - name: Print Goodbye
+        run: echo "Finished Bye"
